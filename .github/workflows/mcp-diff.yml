@@ -28,7 +28,7 @@ jobs:
         run: script/build-ui
 
       - name: Run MCP Server Diff
-        uses: SamMorrowDrums/mcp-server-diff@v2.3.5
+        uses: SamMorrowDrums/mcp-server-diff@v3.0.0
         with:
           setup_go: "true"
           install_command: go mod download
